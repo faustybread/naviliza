@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDF1F3; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 24px;
+    box-shadow: 0 12px 35px rgba(139, 37, 56, 0.08);
+    position: relative;
+    z-index: 10;
+}
+
+h1 {
+    color: #8B2538;
+    margin-bottom: 40px;
+    /* Fixed: Now the header uses Inter too! */
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative; 
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    font-family: 'Inter', sans-serif;
+}
+
+#yes-btn {
+    background-color: #8B2538;
+    color: white;
+    box-shadow: 0 4px 15px rgba(139, 37, 56, 0.2);
+    z-index: 5;
+}
+
+#yes-btn:hover {
+    transform: scale(1.1);
+    background-color: #a32b42;
+}
+
+#no-btn {
+    background-color: #FBE5E9;
+    color: #8B2538;
+    transition: left 0.3s ease, top 0.3s ease; 
+}
