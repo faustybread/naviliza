@@ -84,7 +84,7 @@ updateCounter();
 const quizData = [
     { q: "Where did we go on our first date?", opts: ["A Cute Cafe", "The Movies", "A Park"], ans: 0 },
     { q: "What is my absolute worst habit?", opts: ["Sleeping late", "Stealing blankets", "Slow replies"], ans: 1 },
-    { q: "Who said 'I love you' first?", opts: ["Me (Rahul)", "You (Liza)", "Both!"], ans: 0 }
+    { q: "Who said 'I love you' first?", opts: ["Me (Navi)", "You (Liza)", "Both!"], ans: 0 }
 ];
 
 let currentQ = 0;
