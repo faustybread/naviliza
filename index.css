@@ -236,6 +236,10 @@ body {
     width: 90%; 
     position: relative; 
     text-align: center;
+    
+    /* ADDED THESE TWO LINES TO FIX THE LONG LETTER */
+    max-height: 85vh; /* Stops the box from growing taller than 85% of the screen */
+    overflow-y: auto; /* Adds a vertical scrollbar inside the box */
 }
 
 .close-btn { 
