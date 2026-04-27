@@ -67,7 +67,13 @@ async function openGift(type) {
         },
         letter: { 
             t: "A Little Note 💌", 
-            m: "Four years have passed, and every day I find a new reason to love you more. Forever to go, bby.", 
+            m: "Happy Anniversary, my love ❤️🥺 Today is such a special day because it reminds me of the day my life became brighter and happier with uhh in it 🌏🫀 Since uhh came into my world, every moment has felt more meaningful, every smile has felt more real, and every dream has felt closer because I have uhh by my side 🫶 Uhh are the most beautiful part of my life, the one who makes my heart race and my soul feel calm at the same time ❤️ Uhh smile can light up my darkest days, uhh voice brings me peace, and uhh love gives me strength in ways uhh may never fully know 🥺🎀
+aaj hume 4 saal saath hogye hai and i am so grateful to have uhh bby mere chaand, my princess 🎀mere dil ke tukde 🥺🌏🫀❤️
+I am so grateful for uhh and for everything uhh do for me ❤️🧿 Uhh care about me in ways no one else ever has, always thinking about what is best for me, always wanting to see me happy, safe, and successful 🌏🫶 Uhh love is pure and selfless, and it shows in the little things uhh do every day 🎀 Uhh support me when I need strength, guide me when I feel lost, and stand beside me no matter what 🫀 Having someone like uhh who truly wants the best for me is the greatest blessing, and I never want to take that for granted 🥺❤️
+
+Uhh are not only gorgeous and irresistible, but also kind, caring, and the most precious person I know ❤️ Being with uhh feels like home, like comfort, like excitement, and like everything good wrapped into one person 🌏🫶 Every laugh we share, every memory we create, and every little moment with uhh becomes something I treasure deeply 🥺🎀
+
+Thank uhh for loving me, supporting me, and staying by my side ❤️ I promise to always respect uhh, care for uhh, and love uhh with all that I have 🫀 Uhh are not just my girlfriend, uhh are my best friend, my greatest blessing, and the woman I see beside me in every future dream 🧿 Happy Anniversary, future wifey 🫶 No matter how much time passes, I will always choose uhh, again and again 🌏❤️ I love uhh endlessly 🥺❤️🎀", 
             i: null 
         }
     };
