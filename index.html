@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 4th Anniversary, Liza!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <audio id="bg-music" loop>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="hearts-container"></div>
+
+    <div class="container">
+        <header class="hero">
+            <h1>Happiest 4th Anniversary, my bby🥺🫀🌎😘</h1>
+            <p>Four years down, forever to go🧿💌</p>
+        </header>
+
+        <section class="card-section">
+            <h2 class="title-font">Time Together</h2>
+            <div class="counter-container">
+                <div class="time-box"><span id="years">04</span><p>Years</p></div>
+                <div class="time-box"><span id="months">00</span><p>Months</p></div>
+                <div class="time-box"><span id="days">00</span><p>Days</p></div>
+                <div class="time-box"><span id="hours">00</span><p>Hours</p></div>
+                <div class="time-box"><span id="minutes">00</span><p>Minutes</p></div>
+                <div class="time-box"><span id="seconds">00</span><p>Seconds</p></div>
+            </div>
+        </section>
+
+        <section class="card-section">
+            <h2 class="title-font">Our Memory Lane 📸</h2>
+            <p class="subtitle">A few favorite moments from the last 4 years...</p>
+            <div class="polaroid-grid">
+                <div class="polaroid">
+                    <img src="images/BBFFD199-B7B2-4E37-9CB4-F32F206C4D15.jpg" alt="Memory 1">
+                    <p class="caption">🫀</p>
+                </div>
+                <div class="polaroid">
+                    <img src="images/IMG_3321.jpg" alt="Memory 2">
+                    <p class="caption">💌</p>
+                </div>
+                <div class="polaroid">
+                    <img src="images/IMG_1927.jpg" alt="Memory 3">
+                    <p class="caption">💋</p>
+                </div>
+                <div class="polaroid">
+                    <img src="images/IMG_1964.jpg" alt="Memory 4">
+                    <p class="caption">😘</p>
+                </div>
+                <div class="polaroid">
+                    <img src="images/IMG_1459.heic" alt="Memory 5">
+                    <p class="caption">😘</p>
+                </div>
+                <div class="polaroid">
+                    <img src="images/IMG_3322.jpg" alt="Memory 5">
+                    <p class="caption">😘</p>
+                </div>
+                </div>
+        </section>
+
+        <section id="presents-section" class="presents-card locked">
+            <h2 class="title-font white-text">Presents For You</h2>
+            <p class="subtitle white-text">Click any gift to open it</p>
+            <div class="gifts-container">
+                <div class="gift-card" onclick="openGift('flowers')">
+                    <div class="gift-icon">💐</div>
+                </div>
+                <div class="gift-card" onclick="openGift('mirror')">
+                    <div class="gift-icon">🪞</div>
+                </div>
+                <div class="gift-card" onclick="openGift('letter')">
+                    <div class="gift-icon">💌</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="gift-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3 id="modal-title" class="title-font">Surprise!</h3>
+            <img id="modal-image" src="" alt="Gift Image" class="hidden">
+            <div id="camera-container" class="hidden">
+                <video id="camera-stream" autoplay playsinline></video>
+            </div>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
